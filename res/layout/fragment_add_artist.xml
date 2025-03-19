@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Avatar Image Selection -->
+    <ImageView
+        android:id="@+id/image_artist_avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_default_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Artist Avatar" />
+
+    <!-- Artist Name EditText -->
+    <EditText
+        android:id="@+id/edit_artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist Name"
+        android:layout_below="@id/image_artist_avatar"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Bio EditText -->
+    <EditText
+        android:id="@+id/edit_artist_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist Bio"
+        android:layout_below="@id/edit_artist_name"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Add Artist Button -->
+    <Button
+        android:id="@+id/button_add_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Artist"
+        android:layout_below="@id/edit_artist_bio"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
