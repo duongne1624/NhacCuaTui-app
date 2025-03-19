@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên bài hát"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày phát hành (YYYY-MM-DD)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edit_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên tệp nhạc"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_thumbnail_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link ảnh thu nhỏ"
+        android:inputType="textUri" />
+
+    <EditText
+        android:id="@+id/edit_genre_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID thể loại"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_album_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID album (Có thể để trống)"
+        android:inputType="number" />
+
+</LinearLayout>
